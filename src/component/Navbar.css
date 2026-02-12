@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.logoSection,.nav-links-section,.searchSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-links-section{
+    width: 30%;
+    border: 1px solid white;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.searchSection > input,button{
+    padding: 5px;
+    width: 100px;
+    height: 40px;
+    border-radius:10px;
+    font-size: 20px;
+}
+
+.searchSection > input{
+    width: 200px;
+}
